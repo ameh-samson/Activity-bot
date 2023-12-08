@@ -1,0 +1,37 @@
+body  {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  height: 100vh;
+  display: flex;
+}
+
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 375px;
+  padding: 32px;
+}
+
+
+button{
+  height: 50px;
+  width: 50px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+
+button:hover{
+  background: #9733EE;
+}
+
+.fun{
+  background: #cc2b5e;
+ background: -webkit-linear-gradient(to right, #753a88, #cc2b5e);
+  background: linear-gradient(to right, #753a88, #cc2b5e);
+  color: #fff;
+}
